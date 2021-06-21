@@ -15,6 +15,8 @@ $body-color: #333;
 @import "bootstrap/utilities";
 @import "bootstrap/utilities/api";
 
+@import "bootstrap/helpers";
+
 @import "bootstrap/type";
 @import "bootstrap/images";
 @import "bootstrap/containers";
@@ -43,5 +45,3 @@ $body-color: #333;
 @import "bootstrap/carousel";
 @import "bootstrap/spinners";
 @import "bootstrap/offcanvas";
-
-@import "bootstrap/helpers";
