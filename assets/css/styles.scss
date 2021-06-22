@@ -3,8 +3,7 @@
 
 @import "bootstrap/functions";
 
-$font-size-base: 1.125rem;
-$font-family-sans-serif: Inter, Helvetica, sans-serif;
+$font-family-sans-serif: "Raleway", "Helvetica", sans-serif;
 $line-height-base: 1.625;
 
 @import "bootstrap/variables";
@@ -29,11 +28,12 @@ $letter-spacings: (
         5: 0.05em,
 );
 
-$utilities: ("letter-spacing": (
-        property: letter-spacing,
-        values: (
-                map-merge($letter-spacings, negativify-map($letter-spacings))
-        )));
+$utilities: (
+        "letter-spacing": (
+                property: letter-spacing,
+                values: (
+                        map-merge($letter-spacings, negativify-map($letter-spacings))
+                )));
 
 @import "bootstrap/utilities";
 @import "bootstrap/utilities/api";
