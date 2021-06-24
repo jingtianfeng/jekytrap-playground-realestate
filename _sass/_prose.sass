@@ -1,13 +1,11 @@
 .prose
   max-width: 65ch
-  margin: 0 auto
-  padding: 0 map-get($spacers, 3)
   font-size: 1.125rem
   line-height: 1.75
 
-  h1, h2
-    margin-top: map-get($spacers, 5)
-    margin-bottom: map-get($spacers, 4)
+  h1, h2, h3, h4, h5, h6
+    margin-top: 1.75em
+    margin-bottom: 0.75em
 
-  ul > li:not(:last-child)
-    margin-bottom: map-get($spacers, 3)
+  li + li
+    margin-top: map-get($spacers, 3)
