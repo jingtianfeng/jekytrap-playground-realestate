@@ -3,14 +3,14 @@
 
 @import "bootstrap/functions";
 
-$font-family-sans-serif: "Raleway", "Helvetica", sans-serif;
+$font-family-sans-serif: "Inter", "Helvetica Neue", sans-serif;
 $line-height-base: 1.625;
 
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
-$body-bg: $cyan-100;
-$body-color: $cyan-700;
+$body-bg: $teal-100;
+$body-color: $teal-700;
 
 @import "bootstrap/root";
 @import "bootstrap/reboot";
