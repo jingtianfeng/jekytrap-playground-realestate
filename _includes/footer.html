@@ -1,3 +1,23 @@
 <footer>
-    (footer)
+    <div class="container">
+        <div>
+            <p class="mb-2">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.author }}
+            </p>
+            <div class="">
+                <a class="text-muted text-decoration-none"
+                   href="{{ '/disclaimer' | relative_url }}">
+                    Disclaimer
+                </a>
+                <a class="text-muted text-decoration-none ms-3"
+                   href="{{ '/privacy' | relative_url }}">
+                    Privacy
+                </a>
+                <a class="text-muted text-decoration-none ms-3"
+                   href="{{ '/terms' | relative_url }}">
+                    Terms
+                </a>
+            </div>
+        </div>
+    </div>
 </footer>
